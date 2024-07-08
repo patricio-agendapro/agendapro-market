@@ -1,83 +1,36 @@
-# Sandbox React
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<p><strong>Important note:</strong> This is an React/Next.js template not a WP theme. Please make sure you need the React/Next.js version before purchasing. We can’t be held responsible for wrong purchases, we won’t be providing any refunds for purchases by mistake.</p>
+## Getting Started
 
-<p>Sandbox is a beautiful and flawless site template that includes numerous UI elements and features, elegant ready-made blocks and rich pages, and everything else you need to create a unique and professional website. Sandbox React landing pages can be used for your React app. It’s super easy to set up and deploy.</p>
+First, run the development server:
 
-<p>Create and manage a visually appealing and impressive portfolio quickly and easily. Make an eye-catching journal to share your amazing stories with the world.</p>
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-<ul>
-<li>Next.js &amp; Bootstrap 5 &amp; SASS
-</li>
-<li>SCSS files included
-</li>
-<li>SEO-ready commented HTML5 files
-</li>
-<li>Thorough <a href="https://sandbox-react.netlify.app/docs" rel="nofollow">help documentation</a> with code snippets
-</li>
-<li>Well-written code
-</li>
-<li>Responsive layout
-</li>
-<li>Retina-ready
-</li>
-<li>Modern design
-</li>
-<li>Multipurpose usage: Demos for startup, business, SaaS, software, SEO, marketing, agency, portfolio, personal blog, journal, shop, ecommerce, photography, wedding, travel, etc
-</li>
-<li>Google fonts
-</li>
-<li>27 unique home pages and landing pages
-</li>
-<li>Free updates
-</li>
-<li>250+ beautiful UI elements
-</li>
-<li>130+ pre-made ready to use blocks
-</li>
-<li>100+ neatly coded pages
-</li>
-<li>Modern and eye-catching portfolio layouts
-</li>
-<li>Onepage layout option with smooth scroll
-</li>
-<li>Handcrafted and carefully put together inner pages to choose from
-</li>
-<li>Color options
-</li>
-<li>Font options
-</li>
-<li>High quality retina ready icon sets
-</li>
-<li>Image background option
-</li>
-<li>Video background option
-</li>
-<li>Various header and menu options
-</li>
-<li>Offcanvas mobile menu and info panel
-</li>
-<li>Mega menu with light and dark options
-</li>
-<li>Sticky header
-</li>
-<li>Sticky footer
-</li>
-<li>Notification bar
-</li>
-<li>Modal popup
-</li>
-<li>Animations on scroll
-</li>
-<li>Swiper.js
-</li>
-<li>Slider with animated captions
-</li>
-<li>Filterable gallery with Isotope.js
-</li>
-<li>Video player HTML5, YouTube and Vimeo video support with Plyr
-</li>
-<li>Lightbox for images and videos
-</li>
-<li>Top-notch support. <a href="https://support.ui-lib.com/">Contact Support</a></li>
-</ul>
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
