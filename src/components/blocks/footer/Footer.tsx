@@ -1,19 +1,21 @@
-import { Fragment } from "react";
+import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <Fragment>
+    <>
   <footer className="bg-ash">
     <div className="container mt-10 pb-4">
       <div className="row mt-15 mb-8">
         <div className="col-md-4 col-lg-4">
           <div className="widget">
-            <img
-              className="mb-4 lazyload"
-              width={240}
-              data-src="/web_assets/img/logo-agendapro.svg"
-              alt="AgendaPro"
-            />
+          <Image
+          src="/img/logo-agendapro.svg"
+          alt="AgendaPro Agenda Online para negocios"
+          width={240}
+          height={36}
+          loading="lazy"
+          className='mb-4'
+          />
             <nav className="nav social ">
               <span className="avatar bg-secondary text-primary w-9 h-9">
                 <a
@@ -75,27 +77,22 @@ export default function Footer() {
         <div className="col-md-4 col-lg-4">
           <div className="widget">
             <h4 className="widget-title  mb-3">
-              {"{"}
-              {"{"} __('Más en AgendaPro') {"}"}
-              {"}"}
+              Más en AgendaPro
             </h4>
             <ul className="list-unstyled text-reset mb-4">
               <li>
                 <a href="https://agendapro.com/blog">
-                  {"{"}
-                  {"{"} __('Nuestro Blog') {"}"}
-                  {"}"}
+                 
+                  Nuestro Blog
+  
                 </a>
               </li>
               {/* <li><a href="#">{{ __('Marketplace') }}</a></li> */}
               <li>
                 <a
                   href="/{{ $locale }}/politica-de-privacidad-clientes"
-                  rel="nofollow"
-                >
-                  {"{"}
-                  {"{"} __('Políticas de privacidad') {"}"}
-                  {"}"}
+                  rel="nofollow">
+                    Políticas de privacidad
                 </a>
               </li>
             </ul>
@@ -106,23 +103,19 @@ export default function Footer() {
         <div className="col-md-4 col-lg-4">
           <div className="widget">
             <h4 className="widget-title  mb-3">
-              {"{"}
-              {"{"} __('Para negocios') {"}"}
-              {"}"}
+              Para negocios
             </h4>
             <ul className="list-unstyled text-reset mb-4">
               <li>
                 <a href="https://agendapro.com/planes">
-                  {"{"}
-                  {"{"} __('Planes y precios') {"}"}
-                  {"}"}
+
+                  Planes y precios
+ 
                 </a>
               </li>
               <li>
                 <a href="https://agendapro.com/{{ $locale }}/agenda-online">
-                  {"{"}
-                  {"{"} __('Agenda online') {"}"}
-                  {"}"}
+                  Agenda online
                 </a>
               </li>
             </ul>
@@ -139,22 +132,15 @@ export default function Footer() {
     <div className="container mt-4 pb-7">
       <div className="d-md-flex align-items-center justify-content-between">
         <p className="mb-2 mb-lg-0">
-          {"{"}
-          {"{"} __('AgendaPro se hace con ') {"}"}
-          {"}"}
-          <i className="uil uil-heart text-red" /> desde{" "}
-          <span
-            className="typer"
-            data-words="Chile,Colombia,México,Argentina,Perú,Nicaragua,España,Bolivia"
-            data-delay={100}
-            data-deletedelay={1000}
-          />
+          AgendaPro <i className="uil uil-heart text-red" />
         </p>
         <span className="comodo">
-          <img
-            className="lazyload"
-            data-src="/web_assets/img/comodo.webp"
+          <Image
+            src="/img/comodo.webp"
             alt="Comodo Secure"
+            width={120}
+            height={37}
+            loading="lazy"
           />
         </span>
         {/* /.badges */}
@@ -163,7 +149,7 @@ export default function Footer() {
     </div>
   </section>
 
-</Fragment>
+</>
 
   );
 }

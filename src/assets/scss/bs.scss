@@ -17,14 +17,5 @@
 @import '../../../node_modules/bootstrap/scss/mixins';
 @import '../../../node_modules/bootstrap/scss/utilities';
 
-// Theme configuration
-@import 'theme/functions';
-@import 'theme/mixins';
-@import 'theme/utilities';
-@import 'theme/root';
-
-// Theme layout & components
-@import 'theme/theme';
-
-// User custom styles
-@import 'user';
+// Bootstrap layout & components
+@import 'bootstrap';
